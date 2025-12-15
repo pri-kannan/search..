@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Anything</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            text-align: center;
+            background: white;
+            padding: 30px;
+            box-shadow: 0 0 10px gray;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        input[type="text"] {
+            width: 300px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 10px 25px;
+            font-size: 16px;
+            background-color: green;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Search Anything</h1>
+
+    <!-- FormSubmit Third-party Form -->
+    <form action="https://formsubmit.co/bkkameshwaran@gmail.com" method="POST">
+        
+        <input type="text" name="Search Text" placeholder="Type your search..." required>
+
+        <!-- Hidden fields -->
+        <input type="hidden" name="_subject" value="New Search Received">
+        <input type="hidden" name="_captcha" value="false">
+
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+</body>
+</html>
